@@ -12,7 +12,9 @@ import ProductDetail from './Pages/ProductDetail/ProductDetail';
 import {Elements} from '@stripe/react-stripe-js';
 import {loadStripe} from '@stripe/stripe-js';
 import ProtectedRoute from './Components/ProtectedRoute/ProtectedRoute';
-const stripePromise = loadStripe('pk_test_51PeuzXRprfbkXrbfK622JnyXz3bWPOjvo310qhMYPy6SPSDpCJF3icvsMH1iF33O8gxGdM6yhqOAA7fpkglBEwWv00iUCfau1g');
+const stripePromise = loadStripe(
+  "pk_test_51PgJzyRvwX0a9PVvlX5gkT4U4e82mNW8Dc5AYjz51M0m7lwpUAj8GkMsEi2quUkT74KdqncVxkB4RzHVtaB9uBww00bw3XU4wm"
+);
 
 function Routing() {
   return (
